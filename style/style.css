@@ -1,0 +1,109 @@
+/* basic css for page */
+* *::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* color and structure of navbar */
+.heading {
+  background: linear-gradient(110deg, #ff0000a0 60%, #ff8400a0 60%);
+  height: 5rem;
+  transition: 500ms !important;
+  width: 30rem;
+  display: flex;
+  clip-path: polygon(
+    0 0%,
+    0% 0,
+    0% 0,
+    100% 0%,
+    100% 60%,
+    50% 100%,
+    50% 100%,
+    0% 60%,
+    0% 10%
+  );
+}
+
+/* dropdown hover */
+.heading:hover {
+  height: 30rem !important;
+  transition: 500ms !important;
+}
+
+/* media query for navbar and dropdown hover */
+@media only screen and (width < 426px) {
+  .heading {
+    height: 5rem;
+    transition: 300ms !important;
+
+    clip-path: polygon(
+      0 0%,
+      0% 0,
+      0% 0,
+      100% 0%,
+      100% 60%,
+      100% 100%,
+      100% 100%,
+      0% 60%,
+      0% 10%
+    );
+  }
+  .heading:hover {
+    margin-top: -60px;
+    height: 30rem !important;
+    transition: 200ms;
+    margin-bottom: 20px;
+  }
+
+  .navbar > .container-fluid {
+    align-content: flex-end;
+  }
+}
+
+.nav-item {
+  font-size: 25px;
+  padding: 10px;
+  margin-top: -15px;
+}
+
+/* navbar links css and hovers with structure */
+.nav-link:hover {
+  color: white !important;
+  transition: 500ms !important;
+}
+
+.nav-link:focus {
+  color: white !important;
+}
+
+.navbar > .container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* animation from arrors to navbar dropdown */
+.animation {
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+  transform: scale(1.1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+
+  70% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
