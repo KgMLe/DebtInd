@@ -8,7 +8,7 @@
 
 /* color and structure of navbar */
 .heading {
-  background: linear-gradient(110deg, #ff0000a0 60%, #ff8400a0 60%);
+  background: linear-gradient(110deg, #D4FFDB 60%, #00FF29 60%);
   height: 5rem;
   transition: 500ms !important;
   width: 30rem;
