@@ -1,9 +1,14 @@
 /* basic css for page */
-* *::after,
+*, *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
+}
+
+body{
+  background-color: #C4FA7F;
 }
 
 /* color and structure of navbar */
@@ -216,9 +221,18 @@ p {
 	margin: 5px 0;
 }
 
-.container {
+/* .container {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 30px;
 	text-align: center;
+} */
+
+span{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#aboutpage p{
+  text-align: justify;
 }
