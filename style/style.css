@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #C4FA7F;
+}
+
 /* color and structure of navbar */
 .heading {
   background: linear-gradient(110deg, #D4FFDB 60%, #00FF29 60%);
