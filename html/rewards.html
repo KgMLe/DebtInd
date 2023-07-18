@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendar</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>REWARDS</title>
 </head>
-<body>
-
+<body-wheel>
+    <!-- navbar -->
     <nav class="navbar ms-auto bg-body-tertiary heading">
         <div class="container-fluid">
           <ul class="navbar-nav">
@@ -26,7 +26,7 @@
             </li>
             <!-- navbar links -->
             <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -38,24 +38,37 @@
               <a class="nav-link" href="./rewards.html">Rewards</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="./Contact.html">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Calendar</a>
+              <a class="nav-link" href="./calendar.html">Calendar</a>
             </li>
           </ul>
         </div>
       </nav>
-    
-
-    <div id="calendar" class="calendar"></div>
+      <img class="selects" src="https://i.postimg.cc/SK1LR3HC/down-arrow-svgrepo-com.png" alt="arrow">
+    <div id="mainbox" class="mainbox">
+        <div id="box" class="box">
+          <div class="box1">
+            <span class="span1"><b>AirTime</b></span>
+            <span class="span2"><b>Spotify</b></span>
+            <span class="span3"><b>Xbox live</b></span>
+            <span class="span4"><b>Ps Plus</b></span>
+          </div>
+          <div class="box2">
+            <span class="span1"><b>Netflix</b></span>
+            <span class="span2"><b>R1000</b></span>
+            <span class="span3"><b>DebitAssist</b></span>
+            <span class="span4"><b>R25 000</b></span>
+          </div>
+        </div> 
+        <button class="spin" onclick="rotateFunction()">SPIN</button>
+      </div>
+      <script src="../code/wheel.js"></script>
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"
   ></script>
-    <script src="https://kit.fontawesome.com/a33530bb41.js" crossorigin="anonymous"></script>
-
-    <script src="./code/cal.js"></script>
-</body>
+</body-wheel>
 </html>
