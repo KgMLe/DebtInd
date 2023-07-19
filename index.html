@@ -18,16 +18,13 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg ms-auto bg-body-tertiary heading" id="my-navbar-collapse" toggle="collapse" data-target=".navbar-collapse">
       <div class="container-fluid collapse navbar-collapse">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <img
-              class="animation"
-              src="https://i.postimg.cc/pXLv7dCg/5093064.png"
-              alt="arrow"
-            />
-          </li>
           <!-- navbar links -->
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
@@ -47,6 +44,7 @@
           </li>
         </ul>
       </div>
+    </div>
     </nav>
 
    
@@ -81,3 +79,15 @@
     <script src="./code/main.js"></script>
   </body>
 </html>
+
+<style>
+  .heading {
+    background: linear-gradient(110deg, #d4ffdb 60%, #00ff29 60%);
+  }
+
+  .nav-link:hover {
+    color: rgba(255, 196, 0, 0.906) !important;
+    transition: 500ms !important;
+  }
+
+</style>

@@ -9,108 +9,8 @@
 body {
   background-color: #c4fa7f;
 }
-/* color and structure of navbar */
-.heading {
-  background: linear-gradient(110deg, #d4ffdb 60%, #00ff29 60%);
-  height: 5rem;
-  transition: 500ms !important;
-  width: 30rem;
-  display: flex;
-  clip-path: polygon(
-    0 0%,
-    0% 0,
-    0% 0,
-    100% 0%,
-    100% 60%,
-    50% 100%,
-    50% 100%,
-    0% 60%,
-    0% 10%
-  );
-}
 
-/* dropdown hover */
-.heading:hover {
-  height: 30rem !important;
-  transition: 500ms !important;
-}
-
-/* media query for navbar and dropdown hover */
-@media only screen and (width < 426px) {
-  .heading {
-    height: 4rem;
-    transition: 300ms !important;
-
-    clip-path: polygon(
-      0 0%,
-      0% 0,
-      0% 0,
-      100% 0%,
-      100% 60%,
-      100% 100%,
-      100% 100%,
-      0% 60%,
-      0% 10%
-    );
-  }
-  .heading:hover {
-    margin-top: -60px;
-    height: 30rem !important;
-    transition: 200ms;
-    margin-bottom: 20px;
-  }
-
-  .navbar > .container-fluid {
-    align-content: flex-end;
-  }
-}
-
-.nav-item {
-  font-size: 25px;
-  padding: 10px;
-  margin-top: -15px;
-}
-
-/* navbar links css and hovers with structure */
-.nav-link:hover {
-  color: rgba(255, 196, 0, 0.906) !important;
-  transition: 500ms !important;
-}
-
-.nav-link:focus {
-  color: rgb(255, 115, 0) !important;
-}
-
-.navbar > .container-fluid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-/* animation from arrors to navbar dropdown */
-.animation {
-  height: 40px;
-  width: 40px;
-  margin: 20px;
-  transform: scale(1.1);
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(0.9);
-  }
-
-  70% {
-    transform: scale(1.15);
-  }
-
-  100% {
-    transform: scale(0.9);
-  }
-}
-
+/* =================================================================== */
 .calendar {
   display: flex;
   width: 100% !important;
@@ -182,7 +82,7 @@ form {
   color: rgb(0, 0, 0);
 }
 .bodform {
-  background-color: rgb(203, 203, 203);
+  background-color: #c4fa7f;
 }
 h2 {
   color: rgb(0, 0, 0);
@@ -418,21 +318,4 @@ span b {
 }
 .debt-list {
   background-color: whitesmoke;
-}
-
-@media (max-width: 769px) {
-  .navbar {
-    margin: 0 !important;
-    width: 100%;
-  }
-}
-
-@media (max-width: 426px) {
-  .heading {
-    clip-path: none;
-  }
-  .navbar-nav {
-    width: 100%;
-    justify-content: center;
-  }
 }
