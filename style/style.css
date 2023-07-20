@@ -5,10 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body{
+  overflow-x:hidden;
+}
 
 body {
   background-color: #c4fa7f;
   color: #200202;
+  text-align: center;
 }
 
 /* =================================================================== */
@@ -58,6 +63,19 @@ body {
   width: calc(100% / 7);
   text-align: center;
 }
+.inputs{
+  margin-top:30px;
+}
+
+/* #debt{
+  margin-top:30px !important;
+  margin-bottom:30px !important;
+
+  width:100%;
+  border:3px solid black;
+  height:20rem;
+  border-radius: 20px;
+} */
 
 .days .circle {
   background-color: #02cb0f;
