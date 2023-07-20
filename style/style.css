@@ -364,6 +364,108 @@ span b {
 
 /* CSS for main debt page */
 
-.container{
-    background: #FF0000;
+.container_main{
+  margin-top:20px;
+  padding:8rem;
+  margin-left:40px;
+  margin-right:60px;
+  border-radius: 2em;
+  background: rgb(255,0,0);
+  background: linear-gradient(142deg, rgba(255,0,0,1) 75%, rgba(253,253,255,1) 100%);
+  
+}
+
+.main-text{
+   font-size: 80px;
+   color:#f9998c;
+   font-weight: 600;
+   display: flex;
+   position:absolute;
+   top:0;
+   left:0;
+   transform:translate(32%,160%)
+}
+
+.name-text{
+  font-size: 40px;
+   color:#fff;
+   font-weight: 600;
+   display: flex;
+   position:absolute;
+   top:0;
+   left:0;
+   transform:translate(100%,260%)
+}
+
+.price-text{
+  font-size: 50px;
+  color:#fff;
+  font-weight: 600;
+  display: flex;
+  position:absolute;
+  top:0;
+  left:0;
+  transform:translate(54%,400%)
+}
+
+.header-text{
+  font-size: 80px;
+  color:#fff;
+  font-weight: 600;
+}
+
+span{
+  color:rgb(255,0,0)
+}
+
+/* balls CSS */
+
+.circle-1{
+  padding:8rem;
+  background-color: #F7DF08;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  left:0;
+  transform: translate(-50%,-50%);
+}
+
+.circle-2{
+  padding:4rem;
+  background-color: #F7DF08;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  left:0;
+  transform: translate(50%,90%);
+}
+
+.circle-3{
+  padding:2rem;
+  background-color: #F7DF08;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  left:0;
+  transform: translate(210%,50%);
+}
+
+.circle-4{
+  padding:4rem;
+  background-color: #F7DF08;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  right:0;
+  transform: translate(30%,90%);
+}
+
+.circle-5{
+  padding:2rem;
+  background-color: #F7DF08;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  right:0;
+  transform: translate(-10%,50%);
 }

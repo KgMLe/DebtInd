@@ -7,6 +7,8 @@ const add = document.querySelector("#btn");
 const debt = document.querySelector("#debt");
 let container = document.querySelector("#appendHere");
 let dataa = JSON.parse(localStorage.getItem("debtss"));
+const text = document.querySelector('.price-text')
+console.log(text)
 display();
 
 window.addEventListener('load',()=>{
