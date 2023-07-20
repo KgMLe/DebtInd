@@ -361,3 +361,9 @@ span b {
 .debt-list {
   background-color: whitesmoke;
 }
+
+/* CSS for main debt page */
+
+.container{
+    background: #FF0000;
+}
